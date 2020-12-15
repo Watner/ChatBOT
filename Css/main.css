@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #161218;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+}
+
+.container{
+	box-shadow: 0 0 20px;
+	width: 60%;
+	height: 400px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(../Imgs/Feathers.jpg) no-repeat;
+	background-size: cover;
+}
+
+.cont{
+	backdrop-filter: blur(10px);
+	background: #15151560;
+	width: 60%;
+	padding: 8px;
+	color: rgb(77, 77, 77);
+	text-align: justify;
+}
+
+h1{
+	text-align: center;
+	color: #ccc;
+}
